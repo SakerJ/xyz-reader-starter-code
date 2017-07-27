@@ -18,7 +18,13 @@
 <resources>
 
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
 
+        <!--The default value is true when parent is MD Theme or Appcompat Theme-->
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowExitTransition">@transition/grid_exit</item>
     </style>
 
     <style name="Theme.Bacon.Detail">

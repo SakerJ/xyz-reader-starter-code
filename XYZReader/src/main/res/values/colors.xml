@@ -16,6 +16,10 @@
 -->
 
 <resources>
+    <color name="colorPrimary">#ff5722</color>
+    <color name="colorPrimaryDark">#c41c00</color>
+    <color name="colorAccent">#fbe9e7</color>
+
     <color name="photo_placeholder">#ccc</color>
 
     <color name="theme_primary">#04561A</color>
