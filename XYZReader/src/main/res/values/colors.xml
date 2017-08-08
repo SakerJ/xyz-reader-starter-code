@@ -16,9 +16,9 @@
 -->
 
 <resources>
-    <color name="colorPrimary">#ff5722</color>
-    <color name="colorPrimaryDark">#c41c00</color>
-    <color name="colorAccent">#64dd17</color>
+    <color name="colorPrimary">#00bcd4</color>
+    <color name="colorPrimaryDark">#008ba3</color>
+    <color name="colorAccent">#e21a00</color>
 
     <color name="photo_placeholder">#ccc</color>
 
