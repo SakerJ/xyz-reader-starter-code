@@ -7,14 +7,13 @@
     <android.support.design.widget.AppBarLayout
         android:id="@+id/al_list"
         android:layout_width="match_parent"
-        android:layout_height="112dp"
-        android:background="?colorPrimary">
+        android:layout_height="112dp">
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/toolbar_container"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:elevation="8dp"
+            android:elevation="4dp"
             app:layout_scrollFlags="exitUntilCollapsed|scroll">
 
             <android.support.v7.widget.Toolbar

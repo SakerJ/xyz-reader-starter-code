@@ -51,19 +51,20 @@
 
         </LinearLayout>
 
-        <com.android.volley.toolbox.NetworkImageView
-            android:id="@+id/thumbnail"
-            android:layout_width="180dp"
-            android:layout_height="120dp"
-            android:background="@color/photo_placeholder"
-            android:scaleType="centerCrop"/>
+        <!--<com.android.volley.toolbox.NetworkImageView-->
+            <!--android:id="@+id/thumbnail"-->
+            <!--android:layout_width="180dp"-->
+            <!--android:layout_height="120dp"-->
+            <!--android:background="@color/photo_placeholder"-->
+            <!--android:scaleType="centerCrop"/>-->
 
         <!--suppress AndroidLintContentDescription -->
-        <!--<com.example.xyzreader.ui.DynamicHeightNetworkImageView-->
-        <!--android:id="@+id/thumbnail"-->
-        <!--android:layout_width="100dp"-->
-        <!--android:layout_height="100dp"-->
-        <!--android:background="@color/photo_placeholder" />-->
+        <com.example.xyzreader.ui.DynamicHeightNetworkImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="180dp"
+        android:scaleType="fitXY"
+        android:layout_height="0dp"
+        android:background="@color/photo_placeholder" />
 
     </LinearLayout>
 
