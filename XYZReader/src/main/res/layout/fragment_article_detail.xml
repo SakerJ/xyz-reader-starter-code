@@ -99,10 +99,8 @@
         android:layout_marginBottom="@dimen/fab_margin"
         android:layout_marginEnd="@dimen/fab_margin"
         android:src="@drawable/ic_share"
-        app:backgroundTint="@color/colorPrimary"
-        app:elevation="6dp"
-        app:fabSize="normal"
-        app:pressedTranslationZ="12dp"/>
+        android:stateListAnimator="@animator/fab_state_list_anim"
+        app:fabSize="normal"/>
 
     <!--<ImageButton-->
     <!--android:id="@+id/share_fab"-->
